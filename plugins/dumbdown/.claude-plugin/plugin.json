@@ -1,0 +1,9 @@
+{
+  "name": "dumbdown",
+  "version": "0.1.0",
+  "description": "Answer in as few plain sentences as possible for the rest of the session.",
+  "author": {
+    "name": "Ricky Zese",
+    "url": "https://github.com/rizese"
+  }
+}

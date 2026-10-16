@@ -1,0 +1,19 @@
+{
+  "name": "agent-skills",
+  "owner": {
+    "name": "Ricky Zese",
+    "url": "https://github.com/rizese"
+  },
+  "metadata": {
+    "description": "Ricky's personal Claude Code skills."
+  },
+  "plugins": [
+    {
+      "name": "dumbdown",
+      "source": "./plugins/dumbdown",
+      "description": "Answer in as few plain sentences as possible for the rest of the session.",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ]
+}
