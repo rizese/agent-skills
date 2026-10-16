@@ -6,7 +6,7 @@ Personal Claude Code skills, packaged as a plugin marketplace.
 
 ```
 /plugin marketplace add rizese/agent-skills
-/plugin install dumbdown@agent-skills
+/plugin install dumbdown@rizese
 ```
 
 ## Plugins
