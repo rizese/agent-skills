@@ -7,11 +7,13 @@ Personal Claude Code skills, packaged as a plugin marketplace.
 ```
 /plugin marketplace add rizese/agent-skills
 /plugin install dumbdown@rizese
+/plugin install socratic-review@rizese
 ```
 
 ## Plugins
 
 - **dumbdown**: `/dumbdown` answers in as few plain sentences as possible until you say stop.
+- **socratic-review**: `/socratic-review` reviews PRs and posts inline comments written only as questions, so the author finds the problem themselves.
 
 ## Adding a plugin
 
