@@ -1,0 +1,9 @@
+{
+  "name": "socratic-review",
+  "version": "0.1.0",
+  "description": "Review PRs with inline comments written only as questions, so the author finds the problem themselves.",
+  "author": {
+    "name": "Ricky Zese",
+    "url": "https://github.com/rizese"
+  }
+}
