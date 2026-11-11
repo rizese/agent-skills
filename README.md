@@ -1,22 +1,19 @@
 # agent-skills
 
-Personal Claude Code skills, packaged as a plugin marketplace.
+Personal Claude Code skills, packaged as one plugin named `rizese`. Every skill shows up as `rizese:<skill>`.
 
 ## Install
 
 ```
 /plugin marketplace add rizese/agent-skills
-/plugin install dumbdown@rizese
-/plugin install socratic-review@rizese
+/plugin install rizese@rizese
 ```
 
-## Plugins
+## Skills
 
-- **dumbdown**: `/dumbdown` answers in as few plain sentences as possible until you say stop.
-- **socratic-review**: `/socratic-review` reviews PRs and posts inline comments written only as questions, so the author finds the problem themselves.
+- **dumbdown**: `/rizese:dumbdown` answers in as few plain sentences as possible until you say stop.
+- **socratic-review**: `/rizese:socratic-review` reviews PRs and posts inline comments written only as questions, so the author finds the problem themselves.
 
-## Adding a plugin
+## Adding a skill
 
-1. Create `plugins/<name>/.claude-plugin/plugin.json`.
-2. Put skills in `plugins/<name>/skills/<skill>/SKILL.md`.
-3. Add an entry to `.claude-plugin/marketplace.json`.
+Put it in `skills/<skill>/SKILL.md` and push. No manifest change is needed: the plugin has no `version`, so each commit counts as a new version and `/plugin marketplace update rizese` (or auto-update) picks it up.

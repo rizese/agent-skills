@@ -9,18 +9,10 @@
   },
   "plugins": [
     {
-      "name": "dumbdown",
-      "source": "./plugins/dumbdown",
-      "description": "Answer in as few plain sentences as possible for the rest of the session.",
-      "version": "0.1.0",
+      "name": "rizese",
+      "source": "./",
+      "description": "Ricky's personal Claude Code skills: every skill under skills/.",
       "category": "productivity"
-    },
-    {
-      "name": "socratic-review",
-      "source": "./plugins/socratic-review",
-      "description": "Review PRs with inline comments written only as questions, so the author finds the problem themselves.",
-      "version": "0.1.0",
-      "category": "development"
     }
   ]
 }
