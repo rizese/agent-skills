@@ -11,6 +11,7 @@ Personal Claude Code skills, packaged as one plugin named `rizese`. Every skill 
 
 ## Skills
 
+- **coordinate-issues**: `/rizese:coordinate-issues` works through a batch of GitHub issues in the current repo: one fresh session per ticket in dependency-ordered waves, with PR checks and merges sequenced by a coordinator. Needs the Claude desktop app's session tools.
 - **dumbdown**: `/rizese:dumbdown` answers in as few plain sentences as possible until you say stop.
 - **socratic-review**: `/rizese:socratic-review` reviews PRs and posts inline comments written only as questions, so the author finds the problem themselves.
 
